@@ -1,0 +1,18 @@
+.ant-input-group-wrapper {
+    height: 2.5em !important;
+    width: 15em !important;
+}
+
+.ant-input-wrapper {
+    height: 2.5em !important;
+    width: 15em !important;
+}
+
+.ant-input {
+    height: 2.2em !important;
+}
+
+.ant-input-search-button {
+    height: 2.85em !important;
+    width: 3em !important;
+}

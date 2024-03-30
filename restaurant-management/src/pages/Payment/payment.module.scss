@@ -1,0 +1,78 @@
+.container {
+    height: 28em;
+    justify-content: space-between;
+    display: flex;
+    margin: 5.5em 4em 1em 4em;
+
+    .item-list {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .content {
+        width: 48%;
+        // border: 1px solid yellow;
+        text-align: left;
+        padding: 0 1em;
+
+        .sub-title {
+            margin: 0;
+            padding: 0;
+        }
+
+        .order-id {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .detail {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fee {
+            border-top: 1px solid gray;
+            margin: 10em 0 0.5em 0;
+
+            .tax,
+            .service-charge,
+            .total-price {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    margin: 0.5em 0;
+                }
+            }
+
+            .total-price {
+                font-weight: bold;
+            }
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+
+            .continue-order,
+            .payment {
+                height: 2.5em;
+                width: 14em;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.2em;
+            }
+
+            .continue-order {
+                background-color: #F0A870;
+                color: white;
+            }
+
+            .payment {
+                background-color: #3EBC43;
+                color: white;
+            }
+        }
+    }
+}

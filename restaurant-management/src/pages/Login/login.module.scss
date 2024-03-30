@@ -1,0 +1,28 @@
+.container {
+    width: 16em;
+    height: 17em;
+    padding: 1.5em 0.5em;
+    background-color: #FFEFE3;
+    margin: 3em auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+
+    p {
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    button {
+        height: 2em;
+        width: 5.5em;
+        color: white;
+        background-color: #F0A870;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+}

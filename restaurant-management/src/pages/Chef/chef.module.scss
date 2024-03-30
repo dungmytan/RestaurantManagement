@@ -1,0 +1,91 @@
+.container {
+    height: 29em;
+    margin: 5em 5em 0 5em;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+
+    .order-list {
+        width: 49%;
+        height: 100%;
+        border: 2px solid blue;
+
+        .submenu {
+            height: 2.5em;
+            width: 100%;
+            background-color: white;
+            border-radius: 1.5em;
+            display: flex;
+
+            .sub-obj {
+                height: 2.5em;
+                width: 50%;
+
+                p {
+                    margin: 0;
+                    padding: 0.28em 0;
+                    font-size: 1.2em;
+                    border: 2px solid white;
+                    border-radius: 1em;
+                    color: black;
+                }
+            }
+
+            .sub-obj:hover {
+                p:hover {
+                    border: 2px solid #F0A870;
+                    color: #F0A870;
+                    border-radius: 1em;
+                }
+
+            }
+        }
+    }
+
+    .detail {
+        width: 49%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 5px rgb(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        padding: 1em 1.5em;
+
+        .info {
+            height: 5em;
+            width: 31em;
+            // position: fixed;
+            // border-bottom: 1px solid black;
+            // box-shadow: 0 5px 5px -4px rgb(0, 0, 0, 0.25);
+
+            p {
+                margin: 0;
+            }
+
+            .sub-content,
+            .main-info {
+                display: flex;
+                justify-content: space-between;
+
+                .order-id {
+                    font-weight: bold;
+                    font-size: 1.5em;
+                }
+
+                .table {
+                    padding-top: 0.4em;
+                }
+            }
+
+        }
+
+        .detail-list {
+            height: 22em;
+            // margin-top: 5em;
+            overflow: hidden;
+            // border: 1px solid black;
+            // border-radius: 10px;
+            // box-shadow: 2px -2px 2px inset rgba(255, 0, 0, 0.25);
+        }
+    }
+}

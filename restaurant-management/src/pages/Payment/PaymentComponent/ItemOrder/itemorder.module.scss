@@ -1,0 +1,55 @@
+.container {
+    // overflow: hidden;
+    display: flex;
+    // justify-content: space-between;
+    height: 8em;
+    width: 35em;
+    background-color: white;
+
+    .image {
+        height: 8em;
+        width: 12em;
+        border-bottom: 1px solid gray;
+
+        img {
+            height: 7em;
+            width: 11em;
+            padding: 0.5em;
+        }
+    }
+
+    .content {
+        height: 8em;
+        width: 23em;
+        text-align: left;
+        padding: 0 0.5em;
+        border-bottom: 1px solid gray;
+
+        p {
+            margin: 0;
+        }
+
+        .title {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 0.2em 0;
+        }
+
+        .note {
+            font-size: 1em;
+            height: 2.5em;
+            color: #E49557;
+        }
+
+        .bottom-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2em 0;
+
+            .price {
+                font-weight: bold;
+            }
+
+        }
+    }
+}

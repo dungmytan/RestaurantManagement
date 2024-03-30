@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+
+    p {
+        width: 6em;
+        margin: 0.36em 0;
+        text-align: center;
+    }
+}
+
+.container:last-child {
+    border: none;
+}

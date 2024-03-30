@@ -1,0 +1,51 @@
+.container {
+    width: 34em;
+    height: 5.5em;
+    background-color: white;
+    border-radius: 10px;
+
+    .content-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.2em 1em;
+
+        p {
+            margin: 0;
+        }
+
+        .order-id {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+
+    .content-middle {
+        // border: 2px solid red;
+        padding: 0.2em 1em;
+
+        p {
+            font-size: 1em;
+            margin: 0;
+            text-align: left;
+        }
+    }
+
+    .content-bottom {
+        // border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.2em 1em;
+
+        p {
+            font-size: 1em;
+            margin: 0;
+        }
+
+        .quantity {
+            font-size: 1em;
+            margin: 0;
+            color: #484848;
+        }
+    }
+}

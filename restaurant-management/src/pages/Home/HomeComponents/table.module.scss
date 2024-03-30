@@ -1,0 +1,35 @@
+.table {
+    height: 11em;
+    width: 16em;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1em;
+    padding-top: 0.5em;
+    position: relative;
+
+    img {
+        height: 10em;
+    }
+
+    .name-table {
+        font-size: 2em;
+        top: 0.3em;
+        left: 3.2em;
+        position: absolute;
+        color: black;
+    }
+
+    .order-id {
+        font-size: 2em;
+        top: 1.8em;
+        left: 2.1em;
+        position: absolute;
+        color: black;
+    }
+
+    .status {
+        height: 0.8em;
+        width: 16em;
+        border-radius: 0 0 10px 10px;
+    }
+}

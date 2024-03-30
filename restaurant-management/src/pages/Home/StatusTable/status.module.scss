@@ -1,0 +1,25 @@
+.classify-table {
+    width: 13em;
+    margin: 0 5em;
+    display: flex;
+
+    .type {
+        display: flex;
+        width: 13em;
+        margin: 0.5em 0;
+
+        .signal {
+            width: 2em;
+            height: 2em;
+            border-radius: 50%;
+        }
+
+        .text {
+            width: 7em;
+            padding: 0;
+            text-align: left;
+            margin-left: 1em;
+            font-size: 1.3em;
+        }
+    }
+}

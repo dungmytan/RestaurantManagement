@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5.5em 5em 1.5em 5em;
+}
+
+.item-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 72em;
+    margin: 0 4em;
+}

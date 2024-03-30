@@ -1,0 +1,41 @@
+.container {
+    width: 31em;
+    height: 6em;
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 0.5em 0;
+    box-sizing: border-box;
+    // border: 2px solid red;
+
+    p {
+        margin: 0;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .note {
+        font-size: 1em;
+        color: #E49557;
+    }
+
+    .detail-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.3em 0;
+
+        .status {
+            width: 6em;
+            height: 1.4em;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 1em;
+            background-color: #B0B0B0;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.container {
+
+
+    .submenu {
+        width: 70em;
+        margin: 5em 4em 1em 4em;
+    }
+
+    .statistics {
+        width: 70em;
+        margin: 0 4em;
+        display: flex;
+        justify-content: space-between;
+
+        .revenue,
+        .total-order {
+            height: 7em;
+            width: 48%;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+
+    .graph {
+        margin: 1em 4em;
+        width: 70em;
+        height: 17.4em;
+        background-color: white;
+    }
+}
